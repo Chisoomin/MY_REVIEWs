@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/arrow.xml" value="0.378125" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/camera.xml" value="0.378125" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/ic_baseline_autorenew_24.xml" value="0.378125" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/roundedge.xml" value="0.23796296296296296" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/roundedge_list.xml" value="0.378125" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/drawable/roundedge_pick.xml" value="0.9178571428571428" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/activity_contentsreview.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/activity_infomation.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/activity_intro.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/dia_review.xml" value="0.25" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/dialog_explain.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/dialog_like.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/dialog_pwd.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/dialog_search.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__bookmark.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__explain.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__join.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__login.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__mypage.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__reviewlist.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/fragment__search.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/movie_recom_recycler.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/recycler_bookmark.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/recycler_movie.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/recycler_review.xml" value="0.33" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/recycler_reviewsearch.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/layout/with_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/menu/total_menu.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidProject/Project_last/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.378125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
