@@ -20,17 +20,17 @@
 #### 회원가입과 로그인
 Glide를 이용하여 gif 파일을 로딩합니다. 프로필 사진, 이름, 좋아하는 장르, 비밀번호를 입력하여 회원가입. Join DB에 Join 테이블에 저장하였습니다. Intro 액티비티에 회원가입 전이라면  join 프레그먼트를, 회원가입 후라면 login 프레그먼트를 불러오도록 구현하였습니다.
 
-<img src="https://user-images.githubusercontent.com/84059942/184641141-9a06ad31-b6da-4335-a78e-11cae4d2f6e9.png" width="200" hight="400"/>
+</br></br></br><img src="https://user-images.githubusercontent.com/84059942/184641141-9a06ad31-b6da-4335-a78e-11cae4d2f6e9.png" width="200" hight="400"/>
 
 #### 영화검색과 즐겨찾기
 Main 액티비티에 즐겨찾기, 평론 등 이미지 버튼을 두고 클릭에 따라 이미지 변경 및 해당 프레그먼트를 불러 오도록 구현하였습니다. 네이버 검색 API를 활용하여 영화를 검색하고 검색 결과를 가공하여 리사이클러뷰로 표현하였고, 해당 영화의 리사이클러뷰 항목을 선택하면 즐겨찾기 목록(Local DB의 LikeSave 테이블)에 넣을 수 있도록 다이얼로그가 뜨도록 구현하였습니다. 즐겨찾기를 선택하면 LikeSave 테이블에 저장된 데이터가 리사이클러뷰로 나타나도록 구현되어 있습니다.
 
 #### 
-<img src="https://user-images.githubusercontent.com/84059942/184641798-311b3485-e4e8-4324-8e65-08579e786523.png" width="200" hight="400"/> <img src="https://user-images.githubusercontent.com/84059942/184641801-ee3588d0-692b-4ddc-b3d7-e3ab8c20043d.png" width="200" hight="400"/>
+</br></br></br><img src="https://user-images.githubusercontent.com/84059942/184641798-311b3485-e4e8-4324-8e65-08579e786523.png" width="200" hight="400"/> <img src="https://user-images.githubusercontent.com/84059942/184641801-ee3588d0-692b-4ddc-b3d7-e3ab8c20043d.png" width="200" hight="400"/>
 #### 평론
 플러스(+) 버튼을 누르면 평론을 작성할 영화를 찾는 검색 다이얼로그가 뜨게 됩니다. 검색하면 검색 프레그먼트에서와 같이 네이버 API를 이용한 검색 결과를 리사이클러뷰로 띄우고, 목록 중 하나만 선택할 수 있도록 구현되어 있습니다. 영화 선택 후, 평론 작성을 눌러 제목, 내용, 감상일(DatePicker), 함께 본 사람(다이얼로그), 별점(RatingBar)을 입력하여 평론을 등록할 수 있고, 이는 Review DB의 Review 테이블에 저장됩니다. 나의 평론 글씨 옆 재부팅 버튼을 눌러 내가 쓴 평론을 리사이클러뷰를 통해 확인 가능하고, 항목을 선택하면 다이얼로그로 전체 내용이 보이도록 구현하였습니다.
 
-<img src="https://user-images.githubusercontent.com/84059942/184642229-829740a0-9435-4bd9-9a2d-a441f4335a69.png" width="200" hight="400"/> <img src="https://user-images.githubusercontent.com/84059942/184642242-687c5883-97a1-4977-99df-531c795cfcd9.png" width="200" hight="400"/>
+</br></br></br><img src="https://user-images.githubusercontent.com/84059942/184642229-829740a0-9435-4bd9-9a2d-a441f4335a69.png" width="200" hight="400"/> <img src="https://user-images.githubusercontent.com/84059942/184642242-687c5883-97a1-4977-99df-531c795cfcd9.png" width="200" hight="400"/>
 #### 마이페이지와 설명서
 Join 테이블에 저장한 내용을 불러와 glide를 이용해 사진을 넣고, 선호 장르, 이름을 텍스트뷰에 setText합니다. 즐겨찾기 목록과 평론 목록의 개수를 각 테이블(LikeSave, Review)의 id 항목을 통해 알아내어 setText하고, > 버튼으로 해당 프레그먼트로 이동이 가능하도록 구현되어 있습니다. 설명서 화면은 로그인 후 가장 먼저 불러오는 프레그먼트이고 각 이미지버튼를 클릭하면 해당 프레그먼트의 설명이 다이얼로그로 나타납니다. 메뉴를 통해 프레그먼트 간의 이동이 자유로울 수 있도록 하고 정보 액티비티를 불러오고, 로그아웃도 할 수 있도록 구현하였습니다.
 
