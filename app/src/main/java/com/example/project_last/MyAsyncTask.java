@@ -12,8 +12,8 @@ class MyAsyncTask extends AsyncTask<String, String, String> {
     //Context context;
     String title;
     private AsyncCallback asyncCallback;
-    static String clientId = "oxs4u1exRZikjFoOYHTS";
-    static String clientSecret = "HYAdFsVZsk";
+    static String clientId = "";
+    static String clientSecret = "";
     ArrayList<item_getset> list = new ArrayList<item_getset>();
 
     public MyAsyncTask(String title, AsyncCallback asyncCallback) {
